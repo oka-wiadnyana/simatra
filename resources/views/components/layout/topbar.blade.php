@@ -75,7 +75,7 @@
                        
                         <a class="dropdown-toggle nav-link arrow-none waves-effect nav-user waves-light d-flex align-items-center" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
                             <span class="text-white mr-2 d-none d-md-block font-italic">
-                                {{ auth()->user()->satker->nick_name }}
+                                {{ auth()->user()->satker->nick_name }} ({{ auth()->user()->role }})
                             </span>
                             <img src="{{ asset('template_assets') }}/images/users/user-4.jpg" alt="user" class="rounded-circle">
                         </a>
