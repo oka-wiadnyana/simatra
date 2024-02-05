@@ -8,7 +8,7 @@
         <title>Simatra</title>
         <meta content="Simatra adalah aplikasi terpadu pda PT Denpasar untuk bagian kepaniteraan" name="description" />
         <meta content="PT Denpasar" name="author" />
-        <link rel="shortcut icon" href="{{ asset('template_assets') }}/images/favicon.ico">
+        <link rel="shortcut icon" href="{{ asset('img') }}/logo simatra.png">
 
         <link rel="stylesheet" href="{{ asset('template_assets') }}/plugins/morris/morris.css">
 
